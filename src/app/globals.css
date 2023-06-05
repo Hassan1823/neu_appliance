@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
 body {
   color: #071822;
-  background: #fafafa;
+  background: #FFFFFF;
 }
