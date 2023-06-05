@@ -2,14 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 
-*{
+* {
   margin: 0%;
   padding: 0%;
 }
 
-
 body {
   color: #071822;
-  background: #FFFFFF;
+  background: #ffffff;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+#Montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 66px;
+  /* or 110% */
+
+  color: #071822;
+}
+
+#brands{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+
+}
+
+
+#whatwesell{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43.88px;
+  color: #242424;
+}
+
+#Appliances{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+#customers{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #22A6AB;
+}
+#left{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39.1px;
+  color: #FFFFFF;
+}
+#right{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39.1px;
+  color: #FFFFFF;
+}
+#cosmetics{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #242424;
+}
+
+#Productbtn{
+  border-radius: 0px 0px 24px 24px;
+
 }
