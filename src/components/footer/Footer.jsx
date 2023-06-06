@@ -16,7 +16,7 @@ const Footer = () => {
               <h4 className='w-max text-white text-lg font-bold font-reg' >Our Companies</h4>
               <div className='space-y-5' >
               <img className='w-32 h-12' src="/logo.svg" alt="logo2" />
-              <p className='text-[10px] w-max text-white/60 font-reg' >Shop Austin's #1 Local Discount Appliance Outlet</p>
+              <p className='text-[10px] w-max text-white/60 font-reg' >{`Shop Austin's #1 Local Discount Appliance Outlet`}</p>
               </div>
              </div>
             
@@ -29,7 +29,7 @@ const Footer = () => {
              {/* Nav Logo 3 */}
              <div className='flex flex-col space-y-2 mt-5 text-white' >
               <img className='w-32 h-12' src="/logo.svg" alt="logo3" />
-              <p className='text-[10px] w-64 text-white/60 font-reg' >Wholesale Supply Distributor of Bulk Scratch and Dent Appliances to Appliance Vendor's across the Country</p>
+              <p className='text-[10px] w-64 text-white/60 font-reg' >{`Wholesale Supply Distributor of Bulk Scratch and Dent Appliances to Appliance Vendor's across the Country`}</p>
              </div>
     
            </div>
