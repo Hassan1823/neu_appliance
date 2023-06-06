@@ -1,3 +1,6 @@
+import LoopSection from '@/components/LoopSection/LoopSection'
+import ReviewSection from '@/components/Reviewslider/ReviewSection'
+
 import BestAppliances from '@/components/appliances_Deals/BestAppliances'
 import HeroContainer from '@/components/heroContainer/HeroContainer'
 import HowItWorks from '@/components/howitworks/HowItWorks'
@@ -13,6 +16,8 @@ export default function Home() {
     <WhatWeSell />
     <HowItWorks />
     <BestAppliances />
+    <ReviewSection />
+    <LoopSection />
     </>
   )
 }

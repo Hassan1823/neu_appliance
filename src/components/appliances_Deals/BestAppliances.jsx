@@ -1,9 +1,7 @@
 import React from "react";
-import { BsPiggyBank, BsArrowRightShort } from "react-icons/bs";
-import { AiOutlineCheckCircle } from "react-icons/ai";
-import { IoLocationOutline } from "react-icons/io5";
+import { BsArrowRightShort } from "react-icons/bs";
+
 import Image from "next/image";
-// import D3Slider from "./D3Slider";
 
 const D3CardSection = () => {
   return (
