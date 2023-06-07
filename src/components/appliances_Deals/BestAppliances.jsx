@@ -1,7 +1,9 @@
+"use client";
+
 import React from "react";
 import { BsArrowRightShort } from "react-icons/bs";
-
 import Image from "next/image";
+
 
 const D3CardSection = () => {
   return (
@@ -42,13 +44,18 @@ const D3CardSection = () => {
           </a>
         </div>
       </div>
-      <div className="col-start-7 col-end-13 lg:mt-0 mt-10 relative flex justify-center items-center w-fit">
-        <img src="/Product Card 1.svg" className="lg:w-56 lg:h-96 w-46 h-36" />
+
+      {/* 3d slider */}
+      <div className="container">
+        <h1 className="heading">Flower Gallery</h1>
+       
+
+        {/* <img src="/Product Card 1.svg" className="lg:w-56 lg:h-96 w-46 h-36" />
         <img
           src="/Product Card 2.svg"
           className="absolute -top-5 lg:w-72 lg:h-96 w-46 h-36"
         />
-        <img src="/Product Card 3.svg" className="lg:w-56 lg:h-96 w-46 h-36" />
+        <img src="/Product Card 3.svg" className="lg:w-56 lg:h-96 w-46 h-36" /> */}
       </div>
     </div>
   );
