@@ -34,12 +34,12 @@ const cardData = [
 
 const ProductCard = () => {
   return (
-    <div className="w-full flex gap-[10px] justify-center items-center">
+    <div className="w-full flex lg:flex-row flex-col lg:gap-[10px] gap-[20px] justify-center items-center">
       {cardData.map((data, index) => {
         return (
           <div
             key={index}
-            className="w-[473.33px] h-[860px] bg-[#FFFFFF] rounded-md"
+            className="lg:w-[473.33px] w-[320px] lg:h-[860px] h-auto bg-[#FFFFFF] rounded-md"
           >
             {/* offer  button */}
             <button
@@ -57,7 +57,7 @@ const ProductCard = () => {
               </span>
             </button>
             {/* heading */}
-            <h1 className="text-[22px] font-bold leading-5 mt-[18px] mx-[97.66px]">
+            <h1 className="lg:text-[22px] text-[18px] font-bold leading-5 mt-[18px] mx-[97.66px]">
               Cosmetic Rating:{" "}
               <span className="font-medium"> {data.rating}</span>{" "}
             </h1>
@@ -166,9 +166,9 @@ const ProductCard = () => {
             <ProductSlider />
 
             {/* damage details */}
-            <div className="flex justify-evenly items-center mt-[16px] mx-auto h-[200px]">
+            <div className="h-auto flex justify-evenly items-center lg:mt-[16px] mt-[25px] mx-auto lg:h-[200px] lg:p-0 p-2 lg:gap-0 gap-6">
               {/* left */}
-              <div className="flex flex-col justify-between gap-4">
+              <div className="flex flex-col justify-between lg:gap-4 gap-6">
                 <span className="font-semibold text-base leading-5 text-[#111010CC] text-opacity-80 ">
                   Cosmetic Damage
                 </span>
@@ -190,7 +190,7 @@ const ProductCard = () => {
               </div>
               {/* right */}
 
-              <div className="flex flex-col justify-between gap-4">
+              <div className="flex flex-col justify-between lg:gap-4 gap-6">
                 <span className="font-normal text-base leading-4 text-[#111010A3] text-opacity-65 ">
                   {data.cosmetic}
                 </span>
@@ -232,7 +232,7 @@ const ProductCard = () => {
             </div>
             {/* button */}
             <button
-              className="bg-[#FF9B3E] w-[393.33px] h-[48px]
+              className="bg-[#FF9B3E] lg:w-[393.33px] w-full h-[48px]
           rounded-md flex gap-[8px] text-[16px] font-semibold leading-6 text-[#FFFFFF] justify-center items-center mt-[16px] mx-auto"
             >
               {data.button}

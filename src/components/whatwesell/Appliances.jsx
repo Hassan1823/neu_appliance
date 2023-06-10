@@ -24,9 +24,9 @@ const Appliances = () => {
   return (
     <>
       {/* main container */}
-      <div className="bg-[#EDF8F8] w-full h-[576px] flex flex-col justify-center items-center gap-[60px]">
+      <div className="bg-[#EDF8F8] w-full lg:h-[576px] lg:py-0 py-8 h-auto flex flex-col justify-center items-center gap-[60px]">
         <h1 id="whatwesell">What We Sell </h1>
-        <div className="flex gap-[60px]">
+        <div className="flex lg:flex-row flex-col gap-[60px]">
           {AppliancesData.map((data, index) => {
             return (
               <div
@@ -51,7 +51,7 @@ const Appliances = () => {
             );
           })}
         </div>
-        <h1 id="customers">
+        <h1 id="customers" className="w-full h-auto p-6 text-lg flex justify-center items-center">
         We deliver customers deep discounts by liquidating thousands of appliances from big box retailers right here in Austin, Tx!
         </h1>
       </div>

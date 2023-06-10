@@ -5,12 +5,12 @@ const HeroContainer = () => {
   return (
     <>
       {/* main container */}
-      <div className="px-[120px] w-full h-[664px] bg-[#FAFAFA] flex gap-[100px] items-center">
+      <div className="px-[120px] w-full lg:h-[664px] h-auto bg-[#FAFAFA] flex lg:flex-row flex-col lg:gap-[100px] gap-[150px] items-center">
         {/* left text */}
-        <div className=" w-auto h-[664px] flex flex-col justify-center items-start">
+        <div className=" w-auto h-[664px] lg:h-auto flex flex-col justify-center items-start lg:p-0 p-1">
           <span
             id="Montserrat"
-            className=" text-[60px] font-extrabold text-[#071822] w-[640px] h-[198px]"
+            className="text-6xl font-extrabold text-[#071822] w-full h-auto lg:w-[640px] lg:h-[198px]"
           >
             Austin’s Best Deals For Scratch & Dent Appliances
           </span>
@@ -26,20 +26,20 @@ const HeroContainer = () => {
           </button>
         </div>
         {/* right video */}
-        <div className="flex justify-start items-start relative w-auto h-[664px]">
+        <div className="lg:flex hidden lg:justify-start lg:items-start justify-center items-center relative w-full h-auto lg:w-auto lg:h-[664px] lg:p-0 p-5">
           <Image
             src="/Frame 7045.svg"
             alt="video pic"
             width={640}
             height={504}
-            className="m-auto ml-14"
+            className="m-auto lg:ml-14 ml-0"
           />
           <Image
             src="/Group 3.svg"
             alt="start"
             width={152.71}
             height={152.71}
-            className=" absolute"
+            className="absolute -mt-60 -ml-60 lg:-mt-0 lg:-ml-0"
           />
         </div>
       </div>

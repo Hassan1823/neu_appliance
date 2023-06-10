@@ -44,10 +44,10 @@ const HowItWorks = () => {
     <>
       {/* main container */}
       <div className="bg-[#EDF8F8] w-full h-auto flex flex-col justify-center items-center text-center">
-        <span id="cosmetics" className="w-[1440px] h-[40px] mt-[80px] mb-[16px]">
+        <span id="cosmetics" className="lg:w-[1440px] w-full lg:h-[40px] h-auto mt-[80px] mb-[16px]">
           Our Cosmetic Star Rating System
         </span>
-        <span className="w-[1000px] h-[56px] font-medium text-xl leading-7 text-[#242424] mb-[60px]">
+        <span className="lg:w-[1000px] lg:h-[56px] w-full h-auto lg:font-medium font-light lg:text-xl text-base leading-7 text-[#242424] mb-[60px]">
           We rate our scratch and dent appliances by their cosmetic appearance
           (How they look). Appliances with lower cosmetic grades get Deeper
           Discounts! You pick your level of savings!
@@ -63,36 +63,36 @@ const HowItWorks = () => {
 
         {/* work grid */}
 
-        <div className="gap-[60px] flex mt-[60px]">
+        <div className="gap-[60px] flex lg:flex-row flex-col mt-[60px]">
           {carData.map((carData, index) => {
             return (
               <div
                 key={index}
-                className="w-[440px] h-[384px] bg-[#FFFFFF] rounded-lg shadow-md flex flex-col justify-evenly items-center text-center"
+                className="lg:w-[440px] w-[320px] h-[384px] bg-[#FFFFFF] rounded-lg shadow-md flex flex-col justify-evenly items-center text-center"
               >
                 <Image src={carData.icon} alt="icons" width={64} height={64} />
                 <span className="font-bold text-2xl leading-8 text-[#000000]">
                   {carData.title}
                 </span>
-                <p className="font-medium text-[16px] leading-6 w-[360px] h-[120px]">
+                <p className="lg:font-medium font-normal lg:text-[16px] text-[12px] leading-6 lg:w-[360px] w-full h-auto lg:h-[120px] lg:p-0 p-4">
                   {carData.decs}
                 </p>
               </div>
             );
           })}
         </div>
-        <div className="gap-[60px] flex mt-[40px]">
+        <div className="gap-[60px] flex lg:flex-row flex-col mt-[40px]">
           {carData1.map((carData1, index) => {
             return (
               <div
                 key={index}
-                className="w-[440px] h-[336px] bg-[#FFFFFF] rounded-lg shadow-md flex flex-col justify-evenly items-center text-center"
+                className="lg:w-[440px] w-[320px] h-auto lg:h-[336px] bg-[#FFFFFF] rounded-lg shadow-md flex flex-col justify-evenly items-center text-center lg:p-0 p-4 lg:gap-0 gap-4"
               >
                 <Image src={carData1.icon} alt="icons" width={64} height={64} />
                 <span className="font-bold text-2xl leading-8 text-[#000000]">
                   {carData1.title}
                 </span>
-                <p className="font-medium text-[16px] leading-6 w-[360px] h-[120px]">
+                <p className="lg:font-medium font-normal text-[12px] lg:text-[16px] leading-6 lg:w-[360px] lg:h-[120px] w-full h-auto">
                   {carData1.decs}
                 </p>
               </div>
@@ -102,7 +102,7 @@ const HowItWorks = () => {
 
         {/* banner */}
         <div className="bg-[url('/banner.svg')] w-full h-[365px] flex justify-center items-center mt-[84px]">
-          <span className="w-[936px] h-[118px] text-[48px] font-bold text-[#FFFFFF] leading-[58px] ">
+          <span className="lg:w-[936px] w-full lg:h-[118px] h-auto lg:text-[48px] text-[30px] font-bold text-[#FFFFFF] lg:leading-[58px] leading-9">
             {`Austin Loves Our Star Rating System Here's Why`}
           </span>
         </div>

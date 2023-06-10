@@ -12,7 +12,7 @@ const Header = () => {
       {/* main container */}
       <header className=" relative w-full h-auto flex flex-col bg-[#071522] text-[#FFFFFF]">
         {/* logo header */}
-        <div className="w-full h-[80px] flex items-center px-[120px]">
+        <div className="w-full h-[80px] flex items-center md:px-[120px] px-6 sm:justify-between">
           {/* logo */}
           <Image
             src="/logo.svg"
@@ -74,7 +74,7 @@ const Header = () => {
             alt="cart"
             width={15}
             height={15}
-            className="sm:mx-14 mx-6 xl:hidden inline object-contain "
+            className="ml-auto xl:hidden inline object-contain "
           />
           {/* <button
             className="xl:hidden flex items-center justify-center bg-[#FFFFFF14] bg-opacity-10 w-[22%] h-1/2 gap-2 rounded-md"

@@ -31,19 +31,19 @@ const appliancesData = [
 
 const ShopByAppliances = () => {
   return (
-    <div className="w-full h-[1400px] bg-[#22A6AB14] bg-opacity-10 pt-[120px]">
-      <h1 className="text-4xl leading-[44px] font-bold text-[#242424] text-center mb-[40px]">
+    <div className="w-full lg:h-[1400px] h-auto bg-[#22A6AB14] bg-opacity-10 pt-[120px] lg:pb-0 pb-6">
+      <h1 className="lg:text-4xl text-2xl leading-[44px] font-bold text-[#242424] text-center mb-[40px]">
         Shop By Appliance Type
       </h1>
 
       {/* appliances grid */}
-      <div className="grid grid-cols-3 gap-[40px] w-full h-auto px-[120px] justify-center items-center">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-[40px] w-full h-auto lg:px-[120px] justify-center items-center">
         {/* appliances card */}
         {appliancesData?.map((data, index) => {
           return (
             <div
               key={index}
-              className="w-[403px] h-auto bg-transparent flex flex-col justify-center items-start gap-[16px]"
+              className="lg:w-[403px] w-[320px] h-auto bg-transparent flex flex-col justify-center items-start gap-[16px] mx-auto "
             >
               <Image
                 src={data.src}

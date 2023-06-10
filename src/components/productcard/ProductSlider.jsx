@@ -42,7 +42,7 @@ const ProductSlider = () => {
   };
 
   return (
-    <div className="w-[393px] h-[330px]  m-auto  relative group">
+    <div className="lg:w-[393px] w-[300px] h-[330px] m-auto relative group">
       <div
         style={{ backgroundImage: `url(${ImagesForSlider[currentIndex].src})` }}
         className="w-full h-full rounded-2xl bg-center bg-no-repeat duration-500"

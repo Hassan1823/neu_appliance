@@ -4,7 +4,7 @@ const TwoPictures = () => {
   return (
     <>
       {/* main Container */}
-      <div className="w-full h-[420px] flex">
+      <div className="w-full h-[420px] lg:flex hidden">
         {/* ?left */}
         <div className="w-1/2 h-full bg-[url('/left.svg')]">
           <div className="bg-[#22A6AB] w-[593px] h-[90px] text-center rounded-md  ml-[178px] mt-[99px]">

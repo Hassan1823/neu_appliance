@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const D3CardSection = () => {
   return (
-    <div className="lg:grid flex flex-col grid-cols-12 items-center py-20 xl:space-x-28 space-x-10 xl:px-[120px] lg:px-[60px]  ">
+    <div className="lg:grid flex flex-col grid-cols-12 items-center py-20 xl:space-x-28 space-x-10 xl:px-[120px] lg:px-[60px] px-8 ">
       <div className="col-start-1 col-end-6 flex flex-col space-y-5">
         <div className="flex space-x-2">
           <Image src="/savings.svg" alt="saving" width={20} height={19} />
@@ -46,7 +46,7 @@ const D3CardSection = () => {
       </div>
 
       {/* 3d slider */}
-      <div className="container">
+      <div className="container lg:flex hidden justify-center items-center w-full">
         <h1 className="heading">Flower Gallery</h1>
        
 

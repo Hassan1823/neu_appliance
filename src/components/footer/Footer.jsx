@@ -36,7 +36,7 @@ const Footer = () => {
           {/* Logo Section End */}
           
            {/* Quick Links Section Start */}
-            <div className='col-start-4 lg:mt-0 mt-5' >
+            <div className='lg:inline hidden col-start-4 lg:mt-0 mt-5' >
             <h4 className='w-max text-white text-lg font-bold font-reg' >Quick Links</h4>
              <div className='flex flex-col text-white/60 text-sm space-y-5 w-max mt-3 hover:[&>a]:underline hover:[&>a]:cursor-pointer' >
               <a>Shop Now</a>
@@ -54,7 +54,7 @@ const Footer = () => {
            {/* Quick Links Section End */}
     
            {/* Quick Links Section 2 Start */}
-           <div className='col-start-7 lg:mt-0 flex flex-col text-white/60 text-sm space-y-5 w-max mt-10 hover:[&>a]:underline hover:[&>a]:cursor-pointer' >
+           <div className='lg:flex hidden col-start-7 lg:mt-0 flex-col text-white/60 text-sm space-y-5 w-max mt-10 hover:[&>a]:underline hover:[&>a]:cursor-pointer' >
               <a>Our Brands</a>
               <a>Delivery</a>
               <a>Appliance Measuring Guide</a>
