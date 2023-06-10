@@ -37,7 +37,7 @@ const D3CardSection = () => {
             your needs at an unbeatable price by clicking below.
           </p>
         </div>
-        <div className="flex lg:justify-start justify-center border-[#22A6AB] border-2 w-[217px] h-[48px] rounded-lg text-[#22A6AB]">
+        <div className="flex lg:justify-start justify-center w-[217px] h-[48px] rounded-lg text-[#22A6AB]">
           <a className="flex items-center border-[1px] border-b3 w-fit px-4 py-1 rounded-md text-b3 font-semibold">
             <span className="text-sm">Get Our Best Deals</span>
             <BsArrowRightShort className="text-2xl" />

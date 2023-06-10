@@ -37,13 +37,13 @@ const ShopByAppliances = () => {
       </h1>
 
       {/* appliances grid */}
-      <div className="grid grid-cols-3 gap-[40px] w-full h-auto px-[120px]">
+      <div className="grid grid-cols-3 gap-[40px] w-full h-auto px-[120px] justify-center items-center">
         {/* appliances card */}
         {appliancesData?.map((data, index) => {
           return (
             <div
               key={index}
-              className="w-[453px] h-auto bg-transparent flex flex-col justify-center items-start gap-[16px]"
+              className="w-[403px] h-auto bg-transparent flex flex-col justify-center items-start gap-[16px]"
             >
               <Image
                 src={data.src}

@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
       {/* main container */}
-      <header className=" relative w-screen h-auto  flex flex-col bg-[#071522] text-[#FFFFFF]">
+      <header className=" relative w-full h-auto flex flex-col bg-[#071522] text-[#FFFFFF]">
         {/* logo header */}
         <div className="w-full h-[80px] flex items-center px-[120px]">
           {/* logo */}
@@ -19,11 +19,11 @@ const Header = () => {
             alt="logo"
             width={135}
             height={40}
-            className="object-contain mr-[304px]"
+            className="object-contain mr-[23.5%]"
           />
 
           {/* search bar  */}
-          <div className="lg:flex hidden w-[560px] bg-[#FFFFFF] rounded-md  h-1/2 text-[12px] font-normal mr-[133px]">
+          <div className="lg:flex hidden w-[560px] bg-[#FFFFFF] rounded-md h-1/2 text-[12px] font-normal mr-[10.5%]">
             <Image
               src="/search.svg"
               alt="search icon"

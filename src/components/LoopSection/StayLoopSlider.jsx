@@ -39,13 +39,13 @@ const StayLoopSlider = ({ state, setState }) => {
         </button>
         <div
           id="id3"
-          className="flex lg:overflow-x-hidden overflow-x-scroll space-x-3 scroll-smooth"
+          className="w-[1440px] h-auto flex lg:overflow-x-hidden overflow-x-scroll space-x-3 scroll-smooth"
         >
           <iframe
             onClick={() =>
               setState("https://www.youtube.com/embed/WQWVW4DUmZ0")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/WQWVW4DUmZ0"
             title="5 Best Refrigerators 2023 | Top French Door Refrigerator 2023"
             frameborder="0"
@@ -56,7 +56,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/KOmSLwIE7MU")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/KOmSLwIE7MU"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -66,7 +66,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/WQWVW4DUmZ0")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/WQWVW4DUmZ0"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -76,7 +76,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/WQWVW4DUmZ0")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/WQWVW4DUmZ0"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -86,7 +86,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/WQWVW4DUmZ0")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/WQWVW4DUmZ0"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -96,7 +96,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/KOmSLwIE7MU")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/KOmSLwIE7MU"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -106,7 +106,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/WQWVW4DUmZ0")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/WQWVW4DUmZ0"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -116,7 +116,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/WQWVW4DUmZ0")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/WQWVW4DUmZ0"
             title="5 Best Refrigerators 2023 | Top French Door Refrigerator 2023"
             frameborder="0"
@@ -127,7 +127,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/KOmSLwIE7MU")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/KOmSLwIE7MU"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -137,7 +137,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/WQWVW4DUmZ0")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/WQWVW4DUmZ0"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -147,7 +147,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/WQWVW4DUmZ0")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/WQWVW4DUmZ0"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -157,7 +157,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/WQWVW4DUmZ0")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/WQWVW4DUmZ0"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -167,7 +167,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/KOmSLwIE7MU")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/KOmSLwIE7MU"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
@@ -177,7 +177,7 @@ const StayLoopSlider = ({ state, setState }) => {
             onClick={() =>
               setState("https://www.youtube.com/embed/WQWVW4DUmZ0")
             }
-            className="col-start-1 col-end-6 rounded-2xl xl:h-[150px] xl:w-[200px] lg:w-[200px] lg:h-32 w-32 h-32 "
+            className="col-start-1 col-end-6 rounded-2xl w-[171px] h-[142px]"
             src="https://www.youtube.com/embed/WQWVW4DUmZ0"
             title="Whirlpool Neo Fresh  Refrigerator"
             frameborder="0"
